@@ -18,6 +18,19 @@
 		<app.runtime>4.4.0</app.runtime>
 		<mule.maven.plugin.version>3.5.2</mule.maven.plugin.version>
 	</properties>
+	
+	<distributionManagement>
+		<repository>
+			<id>vigneshbr0979</id>
+			<url>https://pkgs.dev.azure.com/vigneshbr0979/_packaging/vigneshbr0979/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
@@ -111,18 +124,7 @@
 		</repository>
 	</repositories>
 
-	<distributionManagement>
-		<repository>
-			<id>vigneshbr0979</id>
-			<url>https://pkgs.dev.azure.com/vigneshbr0979/_packaging/vigneshbr0979/maven/v1</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</distributionManagement>
+	
 
 	<pluginRepositories>
 		<pluginRepository>
