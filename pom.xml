@@ -108,7 +108,7 @@
 		</repository>
 		<repository>
 			<id>vigneshbr0979</id>
-			<url>https://pkgs.dev.azure.com/vigneshbr0979/_packaging/vigneshbr0979/maven/v1</url>
+			<url>https://pkgs.dev.azure.com/vigneshbr0979/_packaging/vigneshbr0979/maven/v2</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
